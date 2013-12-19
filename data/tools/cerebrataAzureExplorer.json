@@ -1,0 +1,11 @@
+{
+  "name": "Azure Explorer",
+  "link": "http://www.cerebrata.com/labs/azure-explorer",
+  "platform": "Windows",
+  "blockBlobs": "Y",
+  "pageBlobs": "Y",
+  "tables": "N",
+  "queues": "N",
+  "price": "Free",
+  "license": "Proprietary"
+}
