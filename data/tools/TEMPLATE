@@ -1,0 +1,11 @@
+{
+  "name": "NAME OF TOOL",
+  "link": "http://xyz",
+  "platform": "Windows,OSX,Linux,iOS,Android,WP8,Web,Mobile",
+  "blockBlobs": "Y/N",
+  "pageBlobs": "Y/N",
+  "tables": "Y/N",
+  "queues": "Y/N",
+  "price": "$x/Free",
+  "license": "Proprietary/OSS License Name"
+}

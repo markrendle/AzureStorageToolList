@@ -1,0 +1,11 @@
+{
+  "name": "Azure Storage Explorer",
+  "link": "http://azurestorageexplorer.codeplex.com/",
+  "platform": "Windows",
+  "blockBlobs": "Y",
+  "pageBlobs": "Y",
+  "tables": "Y",
+  "queues": "Y",
+  "price": "Free",
+  "license": "CDDL"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Visual Studio + Azure SDK",
+  "link": "http://www.windowsazure.com/en-us/develop/net/",
+  "platform": "Windows",
+  "blockBlobs": "Y",
+  "pageBlobs": "Y",
+  "tables": "Y",
+  "queues": "Y",
+  "price": "From free",
+  "license": "Proprietary"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Azure Blob Studio 2011",
+  "link": "http://azureblobstudio.codeplex.com/",
+  "platform": "Windows",
+  "blockBlobs": "Y",
+  "pageBlobs": "Y",
+  "tables": "N",
+  "queues": "N",
+  "price": "Free",
+  "license": "MsPL"
+}

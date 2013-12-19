@@ -5,8 +5,39 @@ block content
     .container
       a.navbar-brand(href='/') Azure Storage Tools
 
+  .jumbotron
+    .container
+      p Below is a list of tools for working directly with Windows Azure Storage Blobs, Tables and Queues.
+      a(href='http://www.windowsazure.com/en-us/services/storage/') Click here to learn more about Windows Azure Storage Services...
   .container
-
-
-  h1= title
-  p Welcome to #{title}
+    .row
+      .col-sm-12.col-md-12
+        if error
+          .alert.alert-danger error
+        else
+          .panel.panel-default
+            .panel-heading Storage Management Tools
+            table.table
+              thead
+                tr
+                  th Name
+                  th.text-center Block<br>Blobs
+                  th.text-center Page<br>Blobs
+                  th.text-center Tables
+                  th.text-center Queues
+                  th Platform
+                  th Price
+                  th License
+              tbody
+                each tool in tools
+                  tr
+                    td
+                      a(href=tool.link)= tool.name
+                    +tdYorN(tool.blockBlobs)
+                    +tdYorN(tool.pageBlobs)
+                    +tdYorN(tool.tables)
+                    +tdYorN(tool.queues)
+                    td= tool.platform
+                    td= tool.price
+                    td= tool.license
+          small The tool list is sorted randomly per visit to avoid bias.

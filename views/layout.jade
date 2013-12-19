@@ -1,8 +1,13 @@
+mixin tdYorN(flag)
+  td.text-center(class=flag=='Y'?'success':'')= flag
+
 doctype 5
 html
   head
     title= title
-    link(rel='stylesheet', href='stylesheets/style.css')
     link(rel='stylesheet', href='//netdna.bootstrapcdn.com/bootswatch/3.0.3/yeti/bootstrap.min.css')
+    link(rel='stylesheet', href='stylesheets/style.css')
   body
+    a(href='https://github.com/markrendle/AzureStorageToolList')
+      img.github-ribbon(src='//s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png', alt="Form me on GitHub")
     block content

@@ -1,0 +1,11 @@
+{
+  "name": "CloudXplorer",
+  "link": "http://clumsyleaf.com/products/cloudxplorer",
+  "platform": "Windows",
+  "blockBlobs": "Y",
+  "pageBlobs": "Y",
+  "tables": "N",
+  "queues": "N",
+  "price": "$35",
+  "license": "Proprietary"
+}

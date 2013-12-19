@@ -1,0 +1,11 @@
+{
+  "name": "CloudBerry Explorer",
+  "link": "http://www.cerebrata.com/products/cloud-storage-studio/introduction",
+  "platform": "Windows",
+  "blockBlobs": "Y",
+  "pageBlobs": "Y",
+  "tables": "N",
+  "queues": "N",
+  "price": "Free / $39.99 Pro",
+  "license": "Proprietary"
+}

@@ -1,12 +1,14 @@
 {
-  "name": "application-name",
-  "version": "0.0.1",
+  "name": "azure-storage-tool-list",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "3.4.7",
-    "jade": "*"
+    "jade": "*",
+    "async": "~0.2.9",
+    "seed-random": "~2.2.0"
   }
 }

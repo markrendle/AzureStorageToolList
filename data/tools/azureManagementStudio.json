@@ -1,0 +1,11 @@
+{
+  "name": "Azure Management Studio",
+  "link": "http://www.cerebrata.com/products/azure-management-studio/introduction",
+  "platform": "Windows",
+  "blockBlobs": "Y",
+  "pageBlobs": "Y",
+  "tables": "Y",
+  "queues": "Y",
+  "price": "$195",
+  "license": "Proprietary"
+}

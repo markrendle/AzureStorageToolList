@@ -1,0 +1,11 @@
+{
+  "name": "Zudio",
+  "link": "http://zud.io/",
+  "platform": "Web",
+  "blockBlobs": "Y",
+  "pageBlobs": "Y",
+  "tables": "Y",
+  "queues": "Y",
+  "price": "£5/m or £50/yr",
+  "license": "Proprietary"
+}
