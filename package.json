@@ -1,6 +1,6 @@
 {
   "name": "azure-storage-tool-list",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
   "scripts": {
     "start": "node server.js"
