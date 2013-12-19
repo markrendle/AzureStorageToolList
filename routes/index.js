@@ -1,6 +1,7 @@
 var fs = require('fs'),
     async = require('async'),
-    seedRandom = require('seed-random');
+    seedRandom = require('seed-random'),
+    uuid = require('uuid');
 /*
  * GET home page.
  */
@@ -8,7 +9,7 @@ var fs = require('fs'),
 exports.index = function(req, res){
   var seed = req.cookies.seed;
   if (!seed) {
-    seed = Date.now().toString();
+    seed = uuid.v4();
     res.cookie('seed', seed, {expires: 0});
   }
   all('tools', function(err, data) {
@@ -16,14 +17,19 @@ exports.index = function(req, res){
       console.log(err);
       res.render('index', { title: 'Azure Storage Tools', tools: [], error: err });
     } else {
-      var random = seedRandom(seed);
-      var tools = data.sort(function() { return 0.5 - random();});
-      res.render('index', { title: 'Azure Storage Tools', tools: tools });
+      shuffle(data, seed);
+      res.render('index', { title: 'Azure Storage Tools', tools: data });
     }
   });
 };
 
 // Data functions
+
+function shuffle(array, seed) {
+  var random = seedRandom(seed);
+  array.sort(function() { return 0.5 - random();});
+  array.sort(function() { return 0.5 - random();});
+}
 
 function isJson(file) {
   return (/\.json$/).test(file);
