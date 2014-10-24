@@ -1,0 +1,11 @@
+{
+  "name": "Cloud Combine",
+  "link": "www.gapotchenko.com/cloudcombine",
+  "platform": "Windows",
+  "blockBlobs": "Y",
+  "pageBlobs": "Y",
+  "tables": "Y",
+  "queues": "Y",
+  "price": "$21.95",
+  "license": "Proprietary"
+}
