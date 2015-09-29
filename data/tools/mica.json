@@ -1,0 +1,11 @@
+{
+  "name": "Mica",
+  "link": "https://bitbucket.org/gfkeogh/mica/wiki/Home",
+  "platform": "Windows",
+  "blockBlobs": "Y",
+  "pageBlobs": "Y",
+  "tables": "Y",
+  "queues": "Y",
+  "price": "Free",
+  "license": "Proprietary"
+}
