@@ -1,0 +1,11 @@
+{
+  "name": "Azure Storage Explorer (Project Deco)",
+  "link": "http://storageexplorer.com",
+  "platform": "Windows,OSX,Linux,iOS,Android,WP8,Web,Mobile",
+  "blockBlobs": "Y",
+  "pageBlobs": "Y",
+  "tables": "N",
+  "queues": "N",
+  "price": "Free",
+  "license": "MIT"
+}
