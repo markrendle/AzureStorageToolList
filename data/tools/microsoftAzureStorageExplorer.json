@@ -1,0 +1,11 @@
+{
+  "name": "Microsoft Azure Storage Explorer",
+  "link": "http://storageexplorer.com/",
+  "platform": "Windows,OSX,Linux",
+  "blockBlobs": "Y",
+  "pageBlobs": "Y",
+  "tables": "N",
+  "queues": "N",
+  "price": "Free",
+  "license": "Proprietary"
+}
